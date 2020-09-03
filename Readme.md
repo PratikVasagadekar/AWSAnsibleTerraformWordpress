@@ -58,7 +58,7 @@
 
 - `aws configure`
 
-**Enter the Access Key ID & Secret Access key when asked
+**Enter the Access Key ID & Secret Access key when asked  
 Enter preferred region & format. - ie. ap-south-1 & json**
 
 ---------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ Enter preferred region & format. - ie. ap-south-1 & json**
 ---------------------------------------------------------------------------------
 **Let us start with the actual case study**  
 **Note down the Git Hub repo for Terraform, & ansible files**  
-GitHub Repo -: [https://github.com/PratikVasagadekar/awsansibleterraform.git](https://github.com/PratikVasagadekar/awsansibleterraform.git "https://github.com/PratikVasagadekar/awsansibleterraform.git")
+GitHub Repo -: [https://github.com/PratikVasagadekar/awsansibleterraform.git](https://github.com/PratikVasagadekar/AWSAnsibleTerraformWordpress.git "https://github.com/PratikVasagadekar/AWSAnsibleTerraformWordpress.git")
 
 - `mkdir awscasestudy`
 - `cd awscasestudy`
