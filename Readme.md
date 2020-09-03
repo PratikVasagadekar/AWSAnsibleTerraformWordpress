@@ -89,7 +89,7 @@ GitHub Repo -: [https://github.com/PratikVasagadekar/awsansibleterraform.git](ht
 
 **Now edit the .tfvars file with aws specific values.**
 
-- `cd awsansibleterraform/scripts/`
+- `cd AWSAnsibleTerraformWordpress/`
 
 **dev_ami can be found in any aws instances by the name AMI ID**  
 **Change the User in public_key_path depending upon the OS.**  
