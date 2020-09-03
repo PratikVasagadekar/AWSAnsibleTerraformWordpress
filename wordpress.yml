@@ -29,15 +29,6 @@
         owner: apache
         group: apache
 
-    - name: Copy file with owner and permissions
-      copy:
-        src: /var/www/html/wp-config-sample.php
-        dest: /var/www/html/wp-config.php
-        owner: centos
-        group: centos
-        mode: '0600'
-        remote_src: yes
-
     - name: Create a directory if it does not exist
       file:
         path: /var/www/html/wp-content/uploads/
