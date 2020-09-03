@@ -15,6 +15,12 @@
         name: httpd 
         state: present
 
+    - name: Make sure Apache is started now and at boot.
+      service: 
+        name: httpd 
+        state: started 
+        enabled: yes
+
     - name: Download Wordpress
       get_url: url=http://wordpress.org/wordpress-latest.tar.gz dest=/var/www/html/wordpress.tar.gz force=yes
 
@@ -38,5 +44,7 @@
     - name: Set SELinux to 0
       command: "setenforce 0"
 
-    - name: Make sure Apache is started now and at boot.
-      service: name=httpd state=restarted enabled=yes
+    - name: Restart Apache Service
+      service: 
+        name: httpd 
+        state: restarted
