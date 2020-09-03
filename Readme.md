@@ -85,7 +85,7 @@ GitHub Repo -: [https://github.com/PratikVasagadekar/awsansibleterraform.git](ht
 
 - `mkdir awscasestudy`
 - `cd awscasestudy`
-- `git clone https://github.com/PratikVasagadekar/awsansibleterraform.git`
+- `git clone https://github.com/PratikVasagadekar/AWSAnsibleTerraformWordpress.git`
 
 **Now edit the .tfvars file with aws specific values.**
 
